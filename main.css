@@ -1,0 +1,106 @@
+/*************************************
+GENERAL
+**************************************/
+p{
+ font-size:2vw;
+ margin-top:50px;
+ }
+ .column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.blue{
+	color: #0000ff;
+	padding:10px;
+	font-weight:800;
+	margin-left:20px;
+}
+.orange{
+	color: #ff9900;
+	padding:10px;
+	font-weight:800;
+	margin-left:20px;
+}
+.green{
+	color: #339966;
+	padding:10px;
+	font-weight:800;
+	margin-left:20px;
+}
+.pink{
+	color: #ff99cc;
+	padding:10px;
+	font-weight:800;
+	margin-left:20px;
+}
+.brown{
+	color: #993300;
+	padding:10px;
+	font-weight:800;
+	margin-left:20px;
+}
+.purple{
+	color: #800080;;
+	padding:10px;
+	font-weight:800;
+	margin-left:20px;
+}
+/*************************************
+HEADER
+**************************************/
+.topheader{
+	background-image:url('UNO Logo.jpg');
+	background-repeat: no-repeat;
+	background-position: 100% 100%;
+	background-color: black;
+	height: 166px;
+}
+.headertext{
+	color: indianred;
+	text-transform: uppercase;
+	font-size: 5vw;
+}
+/*************************************
+NAVIGATION
+**************************************/
+.nav {
+  overflow: auto;
+  background-color: #335;
+}
+.nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:2vw;
+}
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.nav a.active {
+  background-color: indianred;
+  color: white;
+}
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+  font-size:2vw;
+  margin-top:50px;
+}
+.right {
+  float:left;
+  margin-top:50px;
+  width:40%
+}
